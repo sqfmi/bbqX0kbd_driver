@@ -11,7 +11,7 @@
 umask 077
 
 start() {
-	/usr/bin/loadkeys /usr/local/share/kbd/keymapsbeepy-kbd.map
+	/usr/bin/loadkeys /usr/local/share/kbd/keymaps/beepy-kbd.map
 	# System clock has to be set from hwclock after udev is loaded
 	echo "OK"
 }
