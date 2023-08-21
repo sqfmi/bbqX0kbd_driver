@@ -1,7 +1,12 @@
 #!/bin/sh
-#
-# beepykbd        Loads Beepy keyboard keymap.
-#
+### BEGIN INIT INFO
+# Provides:          S01beepykbd
+# Required-Start:    $all
+# Required-Stop:     $all
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Loads Beepy keyboard keymap
+### END INIT INFO
 
 umask 077
 
