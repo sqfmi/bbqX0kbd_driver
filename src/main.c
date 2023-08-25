@@ -89,7 +89,7 @@ static struct i2c_driver bbqX0kbd_driver = {
 	},
 	.probe    = bbqX0kbd_probe,
 	.shutdown = bbqX0kbd_shutdown,
-	.remove   = bbqX0kbd_remove,
+	.remove   = (int (*)(struct i2c_client *)) bbqX0kbd_remove,
 	.id_table = bbqX0kbd_i2c_device_id,
 };
 
